@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 10px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 10px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.conteudo {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.topo {
+    height: 7vh;
+    background-color: rgb(28, 104, 107);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 2em #cccccc;
+}
+
+fieldset {
+    margin: 0;
+}
+
+#subtitulo {
+    padding-left: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 8vh;
+}
+
+.grupo {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 2em #cccccc;
+    display: flex;
+    flex-direction: column;
+    padding:15px 8px ;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 5vh;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    align-items: stretch;
+}
+
+.corpo-conteudo {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    width: 300px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: black;
+    justify-content: start;
+}
+
+.contato-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-email>input {
+    width: 22vw;
+    margin-right: 20px;
+}
+
+.contato-telefone {
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    align-items: stretch;
+}
+
+.endereco-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco-item>input {
+    width: 22vw;
+    margin-right: 15px;
+}
+
+.dependente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    align-items: stretch;
+}
+
+.dependente-item {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    width: 300px;
+}
+
+.botao>input[type=submit] {
+    border: none;
+    background-color: rgb(28, 104, 107);
+    width: 10vw;
+    height: 3vw;
+    box-shadow: 5px 5px 5px #cccccc;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+.genero{
+    padding-left:3vw;
+    padding-top: 3vh;
+}
