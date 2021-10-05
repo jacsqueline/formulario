@@ -10,46 +10,51 @@
     <!-- <link rel="stylesheet" href="/css/style.css"> -->
     <title>Cadastro</title>
     <style>
-        label{ font-weight: bold;}
+        label {
+            font-weight: bold;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(47, 172, 172); font-weight:bold;">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="dashboard.html" style="color: white;" >Ibmac</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-             
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  style="color: white;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Cadastros
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="formulario.html">Membros</a></li>
-                  <li><a class="dropdown-item" href="formularioinfantil.html">Infantil</a></li>
-                  
-                  <li><a class="dropdown-item" href="fcomunidade.html">Comunidade</a></li>
-                </ul>
-              </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="dashboard.html" style="color: white;">Ibmac</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-           <button class="btn " style="color: white;font-weight: bold;">sair</button>
-          </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarScrollingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cadastros
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="formulario.html">Membros</a></li>
+                            <li><a class="dropdown-item" href="formularioinfantil.html">Infantil</a></li>
+
+                            <li><a class="dropdown-item" href="fcomunidade.html">Comunidade</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="btn " style="color: white;font-weight: bold;">sair</button>
+            </div>
         </div>
-      </nav>
-    <div class="container" style="box-shadow: 0 0 1em gray; margin-top: 40px; margin-bottom: 40px; padding-top: 15px;padding-bottom: 15px; border-radius: 10px;">
+    </nav>
+    <div class="container"
+        style="box-shadow: 0 0 1em gray; margin-top: 40px; margin-bottom: 40px; padding-top: 15px;padding-bottom: 15px; border-radius: 10px;">
         <nav class="navbar navbar-light" style="background-color: rgb(47, 172, 172);border-radius:5px;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="color:white;font-weight:bold;">Cadastro de Membros</a>
+                <a class="navbar-brand" href="#" style="color:white;font-weight:bold;">Cadastro Infantil</a>
                 <nav class="navbar navbar-success">
                     <!-- Navbar content -->
                 </nav>
             </div>
-    
+
         </nav>
         </nav>
         <!-- As a link -->
@@ -66,7 +71,7 @@
                 </div>
 
                 <div class=" container endereco">
-                    
+
                     <div class="row ">
                         <div class="col-2">
                             <label class="form-label"> <span id="estrela">*</span>Cep:</label>
@@ -106,7 +111,7 @@
                 </div>
 
                 <div class=" container dados">
-                
+
                     <div class="row align-items-center">
                         <div class=" col dados-conteudo">
                             <label class="form-label"> <span id="estrela">*</span> Data de Nasc.</label>
@@ -116,15 +121,7 @@
                             <label class="form-label">Natural de: </label>
                             <input class="form-control" type="text" name="natural" id="natural">
                         </div>
-                        <div class=" col dados-conteudo">
-                            <label class="form-label">Estado civil</label>
-                            <select class="form-select" name="estadocivil" id="estadocivil">
-                                <option selected disabled value="">Selecione</option>
-                                <option value="filho">Solteiro</option>
-                                <option value="Pai">Casado(a)</option>
-                                <option value="Mae">Cônjugado</option>
-                            </select>
-                        </div>
+
                         <div class=" col dados-conteudo">
 
                             <div class=" genero ">
@@ -154,24 +151,11 @@
                             <input class="form-control" type="tel" name="mae" id="mae">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class=" col dados-conteudo">
-                            <label class="form-label">DT Convenção</label>
-                            <input class="form-control" type="date" name="convencao" id="convencao">
-                        </div>
-                        <div class=" col dados-conteudo">
-                            <label class="form-label">DT Batismo</label>
-                            <input class="form-control" type="date" name="batismo" id="batismo">
-                        </div>
-                        <div class=" col dados-conteudo">
-                            <label class="form-label">Cargo que Ocupa</label>
-                            <input class="form-control" type="text" name="cargo" id="cargo">
-                        </div>
-                    </div>
+
                 </div>
 
                 <div class=" container contato">
-                  
+
                     <div class="row">
                         <div class=" col contato-email">
                             <label class="form-label">Email</label>
@@ -189,34 +173,36 @@
                 </div>
 
                 <div class=" container dependente">
-                  
+
                     <div class="row">
                         <div class=" col dependente-item">
-                            <label class="form-label">Nome</label>
+                            <label class="form-label"> Em caso aunsência dos pais avisar</label>
                             <input class="form-control" type="text" name="nome" id="nome">
                         </div>
                         <div class=" col dependente-item">
-                            <label class="form-label">Data de Nasc.</label>
-                            <input class="form-control" type="date" name="Nasc" id="Nasc">
-                        </div>
-                        &nbsp;
-                        <div class=" col dependente-item">
                             <label class="form-label">Grau Parentesco</label>
-                            <select class="form-select" name="parentesco" id="parentesco">
-                                <option selected value="">Selecione</option>
-                                <option value="filho">filho(a)</option>
-                                <option value="Pai">Pai</option>
-                                <option value="Mae">Mãe</option>
-                                <option value="Conjuge">Cônjuge</option>
-                            </select>
+                            <input class="form-control" type="text" name="grau_parentesco" id="">
+                        </div>
+                        <div class=" col contato-telefone2">
+                            <label class="form-label">Telefone </label>
+                            <input class="form-control" type="tel" name="telefone" id="telefone">
                         </div>
                     </div>
-                </div>
-                <br>
-                <div class="botao">
-                    <input class="btn btn-success" type="submit" value="Cadastra"
-                        style=" background-color: rgb(47, 172, 172);color:white;font-weight: bold;">
-                </div>
+                    <div class="row">
+                        <div class=" col dependente-item">
+                            <label class="form-label"> É alérgico ou tem alguma restrição a algum tipo de
+                                medicamento ou alimento? Qual?</label>
+                            <input class="form-control" type="text" name="nome" id="nome">
+                        </div>
+                        
+                    </div>
+
+                   <br>
+                    <div class="botao">
+                        <input class="btn btn-success" type="submit" value="Cadastra"
+                            style=" background-color: rgb(47, 172, 172);color:white;font-weight: bold;">
+                    </div>
+
             </fieldset>
 
         </form>
